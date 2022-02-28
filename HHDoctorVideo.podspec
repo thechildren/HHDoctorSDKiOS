@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HHDoctorVideo"
-  spec.version      = "0.0.2"
-  spec.summary      = "A short description of HHDoctorVideo."
+  spec.version      = "0.0.4"
+  spec.summary      = "HHDoctorVideo-iOS版互联网医院"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description  = "互联网医院iOS版本测试"
+  spec.description  = "互联网医院iOS版本测试，Objective- C版本"
 
   spec.homepage     = "https://github.com/thechildren/HHDoctorSDKiOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "HHDoctorVideo.bundle"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
